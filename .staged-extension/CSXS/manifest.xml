@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtensionManifest Version="5.0" ExtensionBundleId="com.chenonetta.LaserComb" ExtensionBundleVersion="1.0.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ExtensionList>
+		<Extension Id="com.chenonetta.LaserComb" Version="1.0" />
+	</ExtensionList>
+	<ExecutionEnvironment>
+		<HostList>
+			<Host Name="ILST" Version="[18.0,18.9]" />
+		</HostList>
+		<LocaleList>
+			<Locale Code="All" />
+		</LocaleList>
+		<RequiredRuntimeList>
+		    <RequiredRuntime Name="CSXS" Version="5.0" />
+		</RequiredRuntimeList>
+	</ExecutionEnvironment>
+	<DispatchInfoList>
+		<Extension Id="com.chenonetta.LaserComb">
+			<DispatchInfo >
+				<Resources>
+				<MainPath>./index.html</MainPath>
+  				<ScriptPath>./host/lasercomb.jsx</ScriptPath>
+  				</Resources>
+				<Lifecycle>
+					<AutoVisible>true</AutoVisible>
+				</Lifecycle>
+				<UI>
+					<Type>Panel</Type>
+					<Menu>LaserComb</Menu>
+					<Geometry>
+						<Size>
+							<Height>200</Height>
+							<Width>215</Width>
+						</Size>
+						<MaxSize>
+							<Height>200</Height>
+							<Width>215</Width>
+						</MaxSize>
+						<MinSize>
+							<Height>200</Height>
+							<Width>215</Width>
+						</MinSize>
+					</Geometry>
+					<Icons>
+						<Icon Type="Normal">./img/icon.png</Icon>
+						<Icon Type="RollOver">./img/icon.png</Icon>
+					</Icons>
+				</UI>
+			</DispatchInfo>
+		</Extension>
+	</DispatchInfoList>
+</ExtensionManifest>

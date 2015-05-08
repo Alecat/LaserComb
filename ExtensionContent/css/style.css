@@ -1,0 +1,132 @@
+body {
+	text-align: left;
+	font-size: 8pt;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: 200;
+	-webkit-user-select: none;
+	user-select: none;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+}
+
+select, input {
+	border: 1px solid #272727;
+	height: 12px;
+	border-radius: 0;
+	line-height: 10px;
+	padding: 2px;
+}
+
+button {
+	border: 1px solid;
+	font-size: 8px;
+	min-height: 16px;
+}
+
+.topcoat-button, .topcoat-button--quiet, .topcoat-button--large,
+	.topcoat-button--large--quiet, .topcoat-button--cta,
+	.topcoat-button--large--cta {
+	border-radius: 0;
+	line-height: .7rem;
+	padding-bottom: 2px;
+	padding-top: 4px;
+}
+
+input[type=text] {
+	background: #a1a1a1;
+}
+
+input[type=checkbox] {
+	padding: 0;
+	height: 10px;
+}
+
+.checkbox::before, .checkbox::after, .topcoat-checkbox__checkmark::before,
+	.topcoat-checkbox__checkmark::after {
+	right: 2px;
+	height: 12px;
+	width: 12px;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+.topcoat-checkbox__checkmark::after {
+	transform: rotate(-50deg) scale(.9, .5) translate(4px, -5px);
+	-webkit-transform: rotate(-50deg) scale(.9, .5) translate(4px, -5px);
+}
+
+#content {
+	margin-right: auto;
+	margin-left: auto;
+	vertical-align: middle;
+	width: 100%;
+}
+
+#content ul {
+	padding: 0px;
+}
+
+#content ul li {
+	margin: 3px 0px 3px 0px;
+}
+
+select {
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	outline: none;
+	display: inline-block;
+	-webkit-appearance: none;
+	appearance: none;
+	padding: 0 18px 0 2px;
+	height: 18px;
+	background: #a1a1a1;
+	margin-left: -2px;
+}
+
+label.select-label {
+	position: relative
+}
+
+label.select-label:after {
+	font-size: 10px;
+	font-family: helvetica;
+	height: 10px;
+	border: solid 1px #272727;
+	right: 5px;
+	margin-left: -15px;
+	padding: 2px 4px;
+	position: relative;
+	pointer-events: none;
+	background: #494949;
+	content: '▾';
+}
+
+label.select-label:before {
+	content: '';
+	right: 6px;
+	top: 0px;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	pointer-events: none;
+	display: block;
+}
+
+.row {
+	min-height: 26px;
+	line-height: 26px;
+	cursor: default;
+	float:left;
+	margin: 0 0 0 5px;
+}
+
+hr {
+	border: 0;
+	height: 0;
+	border-top: 1px solid #373737;
+	box-shadow: 0 1px 0 0 #565656;
+	clear:both;
+}
+.units-value {
+	width:25px;
+}

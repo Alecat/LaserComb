@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./ext.js"></script>
+<script src="./lib/CSInterface-4.0.0.js"></script>
+<script src="./lib/Vulcan-4.0.0.js"></script>
+<script src="./lib/jquery-1.9.1.js"></script>
+<link id="theme" rel="stylesheet" href="./css/dark.css" />
+<link id="ppstyle" rel="stylesheet" type="text/css"
+	href="./css/style.css">
+<script src="./main.js"></script>
+<title>LaserComb</title>
+</head>
+
+<body onload="onLoaded()">
+	<div class="row">
+		Cut away:&nbsp;<label class="select-label"> <select
+			id="invert">
+				<option value="0" selected>Gaps</option>
+				<option value="1">Teeth</option>
+		</select>
+		</label>
+	</div>
+	<div class="row">
+		<img src="img/tooth_width_dark.png" title="Tooth Width" /> <input
+			type="text" class="units-value" id="width" value="6" /> <label
+			class="select-label"> <select id="width-units">
+				<option value="0" selected>mm</option>
+				<option value="1">in</option>
+				<option value="2">pt</option>
+		</select>
+		</label>
+	</div>
+	<div class="row">
+		<img src="img/gap_width_dark.png" title="Gap Between Teeth" /> <input
+			type="text" class="units-value" id="gap" value="8" /> <label
+			class="select-label"> <select id="gap-units">
+				<option value="0" selected>mm</option>
+				<option value="1">in</option>
+				<option value="2">pt</option>
+		</select>
+		</label>
+	</div>
+	<div class="row">
+		<img src="img/tooth_height_dark.png" title="Material Thickness" /> <input
+			type="text" class="units-value" id="height" value="3" /> <label
+			class="select-label"> <select id="height-units">
+				<option value="0" selected>mm</option>
+				<option value="1">in</option>
+				<option value="2">pt</option>
+		</select>
+		</label>
+	</div>
+	<div class="row">
+		<span title="Material Lost During Cutting">Kerf:</span> <input
+			type="text" style="width: 20px" id="kerf" value=".1" /> <label
+			class="select-label"> <select id="kerf-units">
+				<option value="0" selected>mm</option>
+				<option value="1">in</option>
+				<option value="2">pt</option>
+		</select>
+		</label>
+	</div>
+	<hr />
+	<div class="row">
+
+		<button id="btn" class="topcoat-button">Make Teeth</button>
+		<button id="btn_reload" class="topcoat-button">Reload</button>
+	</div>
+</body>
+
+</html>
