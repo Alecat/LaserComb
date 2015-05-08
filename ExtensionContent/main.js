@@ -17,8 +17,11 @@ $(document).ready(function() {
 	csInterface.evalScript("create("+width+","+gap+","+height+","+kerf+","+invert+",false)");
     });
 
-    $("#btn_reload").click(function() {
+    $("#btn-reload").click(function() {
 	location.reload();
+    });
+    $("#btn-restore").click(function() {
+	csInterface.evalScript("restoreEdgeFromPoint()");
     });
 });
 
