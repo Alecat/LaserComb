@@ -23,6 +23,9 @@ $(document).ready(function() {
     $("#btn-restore").click(function() {
 	csInterface.evalScript("restoreEdgeFromPoint()");
     });
+    $("#btn-teeth-data").click(function() {
+	csInterface.evalScript("alertTeethData()");
+    });
 });
 
 
