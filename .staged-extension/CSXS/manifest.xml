@@ -2,7 +2,10 @@
 
 <ExtensionManifest Version="5.0" ExtensionBundleId="com.chenonetta.LaserComb" ExtensionBundleVersion="1.0.0"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<ExtensionList>
+	<Contact mailto="alecat+lasercomb@gmail.com"/>	<Abstract>
+		<![CDATA[LaserComb is a helper for designers who use Illustrator for preparing laser-cutting files.
+]]>
+	</Abstract>	<ExtensionList>
 		<Extension Id="com.chenonetta.LaserComb" Version="1.0" />
 	</ExtensionList>
 	<ExecutionEnvironment>
@@ -21,8 +24,8 @@
 			<DispatchInfo >
 				<Resources>
 				<MainPath>./index.html</MainPath>
-  				<ScriptPath>./host/lasercomb.jsx</ScriptPath>
-  				</Resources>
+				<ScriptPath>./host/lasercomb.jsx</ScriptPath>
+				</Resources>
 				<Lifecycle>
 					<AutoVisible>true</AutoVisible>
 				</Lifecycle>
