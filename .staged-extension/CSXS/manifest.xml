@@ -31,15 +31,15 @@
 					<Menu>LaserComb</Menu>
 					<Geometry>
 						<Size>
-							<Height>200</Height>
+							<Height>170</Height>
 							<Width>215</Width>
 						</Size>
 						<MaxSize>
-							<Height>200</Height>
+							<Height>170</Height>
 							<Width>215</Width>
 						</MaxSize>
 						<MinSize>
-							<Height>200</Height>
+							<Height>170</Height>
 							<Width>215</Width>
 						</MinSize>
 					</Geometry>

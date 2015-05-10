@@ -21,6 +21,8 @@ button {
 	border: 1px solid;
 	font-size: 8px;
 	min-height: 16px;
+	width: 102px;
+	padding: 0;
 }
 
 .topcoat-button, .topcoat-button--quiet, .topcoat-button--large,

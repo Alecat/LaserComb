@@ -24,7 +24,7 @@ If you have two pieces that you want to interlock, you can select the appropriat
 It is recommended that teeth only be created on closed paths as the script cannot determine which direction to create the teeth in on an open path.
 
 ###Getting Teeth Information
-Select a point along a series of teeth and press the 
+Select a point along a series of teeth and press the Get Teeth Data button to see information about the teeth along an edge.
 
 The values returned are the exact distances between the points along the path - any kerf that was applied during the teeth creation process will be represented in these values. If you wish to use these values to create matching teeth, make sure to adjust for kerf.
 

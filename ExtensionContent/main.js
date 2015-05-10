@@ -26,6 +26,9 @@ $(document).ready(function() {
     $("#btn-teeth-data").click(function() {
 	csInterface.evalScript("alertTeethData()");
     });
+    $("#help-link").click(function() {
+	csInterface.openURLInDefaultBrowser('http://www.chenonetta.com');
+    });
 });
 
 
