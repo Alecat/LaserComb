@@ -10,7 +10,7 @@
 	</ExtensionList>
 	<ExecutionEnvironment>
 		<HostList>
-			<Host Name="ILST" Version="[18.0,18.9]" />
+			<Host Name="ILST" Version="[18.0,28.9]" />
 		</HostList>
 		<LocaleList>
 			<Locale Code="All" />
@@ -23,8 +23,8 @@
 		<Extension Id="com.chenonetta.LaserComb">
 			<DispatchInfo >
 				<Resources>
-				<MainPath>./index.html</MainPath>
-				<ScriptPath>./host/lasercomb.jsx</ScriptPath>
+				<MainPath>./ExtensionContent/index.html</MainPath>
+				<ScriptPath>./ExtensionContent/host/lasercomb.jsx</ScriptPath>
 				</Resources>
 				<Lifecycle>
 					<AutoVisible>true</AutoVisible>
@@ -47,8 +47,8 @@
 						</MinSize>
 					</Geometry>
 					<Icons>
-						<Icon Type="Normal">./img/icon.png</Icon>
-						<Icon Type="RollOver">./img/icon.png</Icon>
+						<Icon Type="Normal">./ExtensionContent/img/icon.png</Icon>
+						<Icon Type="RollOver">./ExtensionContent/img/icon.png</Icon>
 					</Icons>
 				</UI>
 			</DispatchInfo>
