@@ -1,5 +1,5 @@
 # LaserComb
-An Illustrator Plugin to aid creation of finger joints when making files for laser cutting
+An Illustrator Extension to aid creation of finger joints when making files for laser cutting
 
 ## This script is in early development and its calculations may return values that Illustrator finds disagreeable. Please make sure to save your work before running any of the LaserComb functions!
 
@@ -19,6 +19,17 @@ defaults write /Users/<username>/Library/Preferences/com.adobe.CSXS.11.plist Pla
 
 ### Enable view of the LaserComb panel in Illustrator by navigating to:
 Window -> Extensions -> LaserComb
+
+## Compatibility
+If the extension stops working when new versions of Illustrator are released, update the version compatibility:
+
+```
+<HostList>
+    <Host Name="ILST" Version="[18.0,28.9]" />
+</HostList>
+```
+
+Increment the end supported version (eg, Illustrator 2024 is version 28)
 
 ## How to Use
 
