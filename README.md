@@ -12,10 +12,11 @@ Mac:        /Library/Application Support/Adobe/CEP/extensions
 ```
 
 #### Enable loading of unsigned panels
-This extension is unsigned, so the following must be run in macOS:
+This extension is unsigned, so the CSXS preferences file must be updated in macOS. Without this, the panel may appear but its content won't show.
 ```
-defaults write /Users/<username>/Library/Preferences/com.adobe.CSXS.11.plist PlayerDebugMode 1
+defaults write /Users/<username>/Library/Preferences/com.adobe.CSXS.12.plist PlayerDebugMode 1
 ```
+The CSXS version number may update over time, if the panel content still doesn't appear check whether there are other .plist files.
 
 ### Enable view of the LaserComb panel in Illustrator by navigating to:
 Window -> Extensions -> LaserComb
@@ -29,7 +30,7 @@ If the extension stops working when new versions of Illustrator are released, up
 </HostList>
 ```
 
-Increment the end supported version (eg, Illustrator 2024 is version 28)
+Increment the end supported version (eg, Illustrator 2026 is version 30)
 
 ## How to Use
 
